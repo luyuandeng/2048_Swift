@@ -19,6 +19,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func startGame(sender:UIButton)
+    {
+        let alertView = UIAlertView();
+        alertView.title = "Starting";
+        alertView.message = "The Game will Begining, Are you Ready? ";
+        alertView.addButtonWithTitle("Ready Go!");
+        alertView.show();
+    }
 
 
 }

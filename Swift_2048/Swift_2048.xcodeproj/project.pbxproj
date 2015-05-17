@@ -13,6 +13,9 @@
 		E3A4E59E1B0856A000EF32E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A4E59D1B0856A000EF32E9 /* Images.xcassets */; };
 		E3A4E5A11B0856A000EF32E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A4E59F1B0856A000EF32E9 /* LaunchScreen.xib */; };
 		E3A4E5AD1B0856A000EF32E9 /* Swift_2048Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A4E5AC1B0856A000EF32E9 /* Swift_2048Tests.swift */; };
+		E3A4E5BA1B08637B00EF32E9 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A4E5B91B08637B00EF32E9 /* MainTabViewController.swift */; };
+		E3A4E5BC1B08639F00EF32E9 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A4E5BB1B08639F00EF32E9 /* SettingViewController.swift */; };
+		E3A4E5BE1B0863D100EF32E9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A4E5BD1B0863D100EF32E9 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 		E3A4E5AB1B0856A000EF32E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3A4E5AC1B0856A000EF32E9 /* Swift_2048Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_2048Tests.swift; sourceTree = "<group>"; };
 		E3A4E5B61B085BEA00EF32E9 /* 2048.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2048.playground; sourceTree = "<group>"; };
+		E3A4E5B91B08637B00EF32E9 /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		E3A4E5BB1B08639F00EF32E9 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		E3A4E5BD1B0863D100EF32E9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 		E3A4E5931B0856A000EF32E9 /* Swift_2048 */ = {
 			isa = PBXGroup;
 			children = (
+				E3A4E5B71B08633900EF32E9 /* Controller */,
 				E3A4E5961B0856A000EF32E9 /* AppDelegate.swift */,
 				E3A4E5981B0856A000EF32E9 /* ViewController.swift */,
 				E3A4E59A1B0856A000EF32E9 /* Main.storyboard */,
@@ -112,6 +119,16 @@
 				E3A4E5AB1B0856A000EF32E9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3A4E5B71B08633900EF32E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3A4E5B91B08637B00EF32E9 /* MainTabViewController.swift */,
+				E3A4E5BB1B08639F00EF32E9 /* SettingViewController.swift */,
+				E3A4E5BD1B0863D100EF32E9 /* MainViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +233,9 @@
 			files = (
 				E3A4E5991B0856A000EF32E9 /* ViewController.swift in Sources */,
 				E3A4E5971B0856A000EF32E9 /* AppDelegate.swift in Sources */,
+				E3A4E5BA1B08637B00EF32E9 /* MainTabViewController.swift in Sources */,
+				E3A4E5BC1B08639F00EF32E9 /* SettingViewController.swift in Sources */,
+				E3A4E5BE1B0863D100EF32E9 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // 开始游戏
     @IBAction func startGame(sender:UIButton)
     {
         let alertView = UIAlertView();
@@ -27,12 +28,12 @@ class ViewController: UIViewController {
         alertView.message = "The Game will Begining, Are you Ready? ";
         alertView.addButtonWithTitle("Ready Go!");
         alertView.show();
+        alertView.delegate = self;
     }
-
-//    var btn = UIButton()
-//    btn.setTitle("HelloWorld.", forState:.Normal)
-//    btn.backgroundColor = UIColor.redColor()
-//    btn.titleLabel.textColor = UIColor.whiteColor()
-//    btn.frame = CGRectMake(0, 0, 200, 44)
+    
+    // modal出TabViewController
+    func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
+        self.presentViewController(MainTabViewController(), animated: true, completion: nil);
+    }
 }
 

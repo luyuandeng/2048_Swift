@@ -12,8 +12,21 @@ for (i=1; i<10; i++)
 }
 
 // TODO: btn未显示出来？
-var btn = UIButton().buttonType:.Curtom;
-btn.setTitle("HelloWorld.", forState:.Normal);
-btn.backgroundColor = UIColor.redColor();
-btn.titleLabel!.textColor = UIColor.whiteColor();
-btn.frame = CGRectMake(0, 0, 200, 44);
+
+
+// for-in遍字典， 2个变量表示每个键值对
+let interestingNumbers = [
+    "Prime": [2, 3, 5, 7, 11, 13],
+    "Fibonacci": [1, 1, 2, 3, 5, 8],
+    "Square": [1, 4, 9, 16, 25],
+]
+var largest = 0
+for (kind, numbers) in interestingNumbers {
+    
+    for number in numbers {
+        if number > largest {
+            largest = number
+        }
+    }
+}
+largest

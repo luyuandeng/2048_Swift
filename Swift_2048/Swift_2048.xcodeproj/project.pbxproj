@@ -36,6 +36,7 @@
 		E3A4E5A61B0856A000EF32E9 /* Swift_2048Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_2048Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A4E5AB1B0856A000EF32E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3A4E5AC1B0856A000EF32E9 /* Swift_2048Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_2048Tests.swift; sourceTree = "<group>"; };
+		E3A4E5B61B085BEA00EF32E9 /* 2048.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 2048.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 				E3A4E59D1B0856A000EF32E9 /* Images.xcassets */,
 				E3A4E59F1B0856A000EF32E9 /* LaunchScreen.xib */,
 				E3A4E5941B0856A000EF32E9 /* Supporting Files */,
+				E3A4E5B61B085BEA00EF32E9 /* 2048.playground */,
 			);
 			path = Swift_2048;
 			sourceTree = "<group>";

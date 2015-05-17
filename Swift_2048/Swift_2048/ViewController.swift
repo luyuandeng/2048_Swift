@@ -29,6 +29,10 @@ class ViewController: UIViewController {
         alertView.show();
     }
 
-
+//    var btn = UIButton()
+//    btn.setTitle("HelloWorld.", forState:.Normal)
+//    btn.backgroundColor = UIColor.redColor()
+//    btn.titleLabel.textColor = UIColor.whiteColor()
+//    btn.frame = CGRectMake(0, 0, 200, 44)
 }
 
